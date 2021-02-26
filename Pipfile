@@ -1,0 +1,30 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+src = {editable = true,path = "."}
+pylint = "*"
+
+[packages]
+src = {editable = true,path = "."}
+numpy = "*"
+pandas = "*"
+matplotlib = "*"
+jupyterlab = "==1.2.6"
+tqdm = "*"
+rasterio = "==1.1.2"
+geopandas = "*"
+numba = "*"
+scipy = "*"
+shapely = "*"
+descartes = "*"
+pygrib = "*"
+ecmwf-api-client = "*"
+geoplot = "*"
+earthengine-api = "*"
+fiona = "*"
+
+[requires]
+python_version = "3.8"
